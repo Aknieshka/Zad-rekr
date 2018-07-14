@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    /* background-image: url("../PHOTO/calosc.png"); 
+    opacity: 0.5;   
+    background-size: 100%;
+    background-repeat: no-repeat;  */
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+span {
+    color: #e10024;
+    font-weight: 700;
+}
+
+p {
+    font-size: 75%;
+    line-height: 1.6;
+}
+
+/* BUTTONS */
+
+button {
+    background: transparent;
+    border: none;
+    font-size: 80%;
+    cursor: pointer;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-arrow {
+    font-size: 70%;
+    padding: 2%;
+}
+
+.news-button img {
+    height: 24px;
+}
+
+.news-button {
+    text-align: right;
+}
+
+.button-red-border {
+    width: 85%;
+    border: 1.5px solid #e10024;
+    background-image: url('../PHOTO/buttonarrow2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.button-red-border button {
+    font-size: 75%;
+    font-weight: 700;
+    padding: 1.7% 0 1.8% 4%;
+}
+
+.red-border {
+    color: black;
+    border: 1.5px solid red;
+    padding: 2.5% 11% 2.5% 11%;
+    font-weight: 700;
+    margin-top: 4%;
+}

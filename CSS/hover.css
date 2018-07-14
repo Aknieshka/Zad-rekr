@@ -1,0 +1,54 @@
+/* NAVIGATION */
+
+a.nav-link:hover {
+    color: white;
+    border-bottom: 1.8px solid #e10024;
+}
+
+#red-link:hover {
+    border: none;
+    font-weight: 700;
+    padding-left: 14px;
+    padding-right: 15px;
+}
+
+/* NEWS */
+
+.news-box:hover .news-title {
+    color: #7e0220;
+}
+
+/* OFFER */
+
+.red-border:hover {
+    border-color: #04051a;
+}
+
+/* WORK */
+
+.button-red-border:hover {
+    background-image: url('../PHOTO/buttonarrowh.png');
+    border-color: #04051a;
+}
+
+#shop-photo1 {
+    -webkit-transition: all 2s ease;
+}
+
+#shop-photo2 {
+    -webkit-transition: all 2s ease;
+}
+
+#shop-photo1:hover  {
+    background-size: 410px;
+}
+
+#shop-photo2:hover {
+    background-size: 390px;
+}
+
+/*FOOTER*/
+
+.footer-logo img:hover {
+    filter: brightness(100%);
+}

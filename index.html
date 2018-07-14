@@ -1,0 +1,337 @@
+<!DOCTYPE html >
+<html lang="pl-PL">
+    <head>
+    <title>Zadanie rekrutacyjne</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--ICON-->
+    <link rel="shortcut icon" href="PHOTO/smalllogo.png" />
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/sections.css">
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/hover.css">
+
+    <!--JQUERY-->
+     <script src = "JS/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script> 
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
+    <!--FONTAWESOME-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!--ANIMATE-->
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script src="js/effects.js"></script>
+
+    </head>
+
+    <body>
+
+        <header class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+            <nav class="navbar navbar-expand-lg" id = "page-nav">
+                <a class="navbar-brand" href="#" id = "page-logo"><img src = "PHOTO/logo.png" height = "160" alt="Logo"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link smooth-scroll" href="#">Poznaj <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#shop">Gdzie kupić</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#news">Aktualności</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#offer">Oferta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#shop">Sklep</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#" id="red-link">Dołącz do nas</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id = "slider" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0s">
+            <div id="slider-content" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="PHOTO/sliderimage1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="PHOTO/sliderimage2.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="PHOTO/sliderimage3.png" alt="Third slide">
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+        <section id = "header" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                <div id = "title">
+                        <h1>Gwarancja zdrowego snu</h1>
+        
+                        <h6>Materace najwyższej jakości</h6>
+                </div>
+        </section>
+        
+        <section id = "news" class="wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s">
+            <div id = "news-content">
+                <div class = "container-fluid">
+                    <div class = "row">
+                        <div class = "col-md-4 news-box" id="news-box1">
+                            <div class = "news-date">
+                                <h6>27 grudnia 2017</h6>
+                            </div>
+                            <div class = "news-title navy">
+                                <h3>Wyprzedaż magazynowa</h3>
+                            </div>
+                            <div class = "news-info">
+                                Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego. Został po raz pierwszy użyty w XV w. przez nieznanego. 
+                            </div>
+                            <div class = "news-button">
+                                <button type="button" class = "button-arrow">Czytaj więcej</button>
+                                <img src = "PHOTO/buttonarrow.png" alt="Arrow" />
+                            </div>
+                        </div>
+                        <div class = "col-md-4 news-box" id="news-box2">
+                            <div class = "news-date">
+                                <h6>27 grudnia 2017</h6>
+                            </div>
+                            <div class = "news-title navy">
+                                <h3>Wyprzedaż magazynowa wszystkiego</h3>
+                            </div>
+                            <div class = "news-info">
+                                Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego. 
+                            </div>
+                            <div class = "news-button">
+                                <button type="button" class = "button-arrow">Czytaj więcej</button>
+                                <img src = "PHOTO/buttonarrow.png" alt="Arrow" />
+                            </div>
+                        </div>
+                        <div class = "col-md-4 news-box" id="news-box3">
+                            <div class = "news-date">
+                                <h6>27 grudnia 2017</h6>
+                            </div>
+                            <div class = "news-title">
+                                <h3>Wyprzedaż magazynowa</h3>
+                            </div>
+                            <div class = "news-info">
+                                Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego. Lorem Ipsum jest tekstem stosowanym jako przykładowy
+                            </div>
+                            <div class = "news-button">
+                                <button type="button" class = "button-arrow">Czytaj więcej</button>
+                                <img src = "PHOTO/buttonarrow.png" alt="Arrow" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "offer" class="wow fadeInRight" data-wow-duration="2s">
+            <div id = "offer-content">
+                <div class = "container-fluid">
+                    <div class = "row">
+                        <div class = "col-md-5" id="left-offer">
+                            <div id = "left-offer-content">
+                                <h4 id = "title4">Specjalizujemy się w produkcji<br> i sprzedaży materacy.</h4>
+                                <br>
+                                <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. <p>Spopularyzował się w latach 60.
+                                Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. </p>
+                                <button class = "red-border">Czytaj więcej</button>
+                            </div>
+                        </div>
+                        <div class = "col-md-7" id = "right-offer">
+                            <div class = "offer-list">
+                                <div class = "container-fluid">
+                                    <div class = "row">
+                                        <div class = "col-md-6 offer-item">
+                                            <div class = "offer-left-item">
+                                                <img src = "PHOTO/pianka_visco.png" alt="Obraz"/>
+                                            </div>
+                                            <div class = "offer-right-item">
+                                                <span>Pianka Visco</span><br>
+                                                - dopasowuje się do kształtu ciała
+                                            </div>
+                                        </div>
+                                        <div class = "col-md-6 offer-item">
+                                            <div class = "offer-left-item">
+                                                <img src = "PHOTO/filc.png" alt="Obraz"/>
+                                            </div>
+                                            <div class = "offer-right-item">
+                                                <span>Filc</span><br>
+                                                - zwiększa wytrzymałość
+                                            </div>    
+                                        </div>
+                                    </div>
+                                    <div class = "row">
+                                        <div class = "col-md-6 offer-item">
+                                            <div class = "offer-left-item">
+                                                <img src = "PHOTO/pianka2.png" alt="Obraz"/>
+                                            </div>
+                                            <div class = "offer-right-item">
+                                                Pianka o podwyższonej wytrzymałości
+                                            </div>   
+                                        </div>
+                                        <div class = "col-md-6 offer-item">
+                                            <div class = "offer-left-item">
+                                                <img src = "PHOTO/filc2.png" alt="Obraz" />
+                                            </div>
+                                            <div class = "offer-right-item">
+                                                Sprężyny<br>Kieszeniowe
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "offer-photo">
+                                <img src = "PHOTO/materac.png" alt="Obraz"/>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id = "work" class="wow fadeInLeft" data-wow-duration="2s">
+            <div id = "work-content">
+                <div class = "container-fluid">
+                    <div class = "row">
+                        <div class = "col-md-6" id = "left-work">
+                            <div id = "work-photo">
+                                <div id = "work-line">
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-md-6" id = "right-work">
+                            <div id = "logo-left">
+                                <img src = "PHOTO/logo.png" alt="Logo"/> 
+                            </div>
+                            <div id = "text-right">
+                                <h4>Zapoznaj się z naszymi ofertami pracy</h4>
+                            </div>
+                            <br>
+                            <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. </p>
+                            <p>
+                            Spopularyzował się w latach 60.
+                            </p>
+                            <div class = "button-red-border">
+                                <button type="button">Zobacz nasze oferty pracy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id = "shop" class="wow fadeInRight" data-wow-duration="2s">
+            <div id = "shop-content">
+                <div class = "container-fluid">
+                    <div class = "row">
+                        <div class = "col-md-6" id = "left-shop">
+                            <div class = "shop-title">
+                                <h4>Zapraszamy do zakupów <span>on-line</span><br> lub w salonie naszego partnera</h4>
+                            </div>
+                            <div class = "shop-info">
+                                <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki.</p> 
+                            </div>
+                            <div class = "shop-list">
+                                <p>Nasza oferta obejmuje <span>MATERACE:</span></p>
+                                <br>
+                                <div id = "shop-items">
+                                    <div class="shop-item">Piankowe</div>
+                                    <div class="shop-item">Bonellowe</div>
+                                    <div class="shop-item">Termolastyczne</div>
+                                    <div class="shop-item">Lateksowe</div>
+                                    <div class="shop-item">Kieszeniowe</div>
+                                    <div class="shop-item">Multipoketowe</div>
+                                    <div class="shop-item">Kokosowe</div>
+                                    <div class="shop-item">Akcesoria</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-md-6" id = "right-shop">
+                            <div id = "shop-photo1">
+                                <div id = "shop-photo2">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id = "footer" class="wow fadeIn" data-wow-duration="1s">
+           <div id = "footer-content">
+               <div id = "footer-top">
+                    <div class = "container-fluid">
+                        <div class = "row">
+                            <div class = "col-md-6 " id="footer-info">
+                                <div id = "contact">
+                                    <div class = "container-fluid">
+                                        <div class = "row">
+                                            <div class = "col-md-6 contact-side">
+                                                <div>
+                                                    <span>Undicom.pl</span>
+                                                </div>
+                                                <div>
+                                                    Kościuszki 1C, Gliwice
+                                                </div>
+                                            </div>
+                                            <div class = "col-md-6 contact-side">
+                                                <div>
+                                                    <span><i class="fas fa-mobile-alt"></i></span>+48 111 222 333 
+                                                </div>
+                                                <div>
+                                                    <span><i class="fas fa-envelope"></i></span> undicom@undicom.pl
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "col-md-6 footer-logo">
+                                <img src = "PHOTO/godnezaufania4.png" alt="Obraz">
+                                <img src = "PHOTO/godnezaufania.png" alt="Obraz">
+                                <img src = "PHOTO/godnezaufania2.png" alt="Obraz">
+                                <img src = "PHOTO/godnezaufania3.png" alt="Obraz">
+                            </div>
+                        </div><!--row-->
+                    </div><!--container-fluid-->
+               </div><!--footer top-->
+               <div id = "footer-copyright">
+                    <p>Created by <img src = "PHOTO/stopkaimg.png" alt="Obraz" /> undicom.pl</p>
+                </div>
+           </div><!--footer content-->
+
+        </section>
+    </body>
+</html>
