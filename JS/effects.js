@@ -1,4 +1,6 @@
-new WOW().init();
+$(function(){
+  new WOW().init(); 
+});
 
 $(function(){
     $("a.smooth-scroll").click(
